@@ -1,5 +1,5 @@
 // day1 topics -> variables , data type , Control flow constructs ,functions and method syntax , patter matching and destructuring 
-
+use std::io;
 fn main() {
     // variables 
     let x = 5; // Immutable (değiştirilemez)
@@ -81,5 +81,42 @@ fn main() {
             println!("Sayac: {}",sayac1);
             sayac1+=1;
          }
+
+           // Kullanıcıdan input alma klavye den alınan her input String tiplidir
+    let mut giris = String::new();
+
+    while giris.trim() !="exit"{
+        println!("Bir şey yazın (çıkmak için exit)");
+        giris.clear();
+        io::stdin().read_line(&mut giris).expect("Hata!");
+    }
+    println!("Programdan çıktınız");
+
+       // Kullanıcıdan alınan input(String tipinde) bunu sayıya çevirme int32 format
+
+    use std::io;
+
+fn main() {
+    let mut giris = String::new();
+
+    while giris.trim() != "exit" {
+        println!("Bir sayı yazın (çıkmak için 'exit'): ");
+        giris.clear();
+        io::stdin().read_line(&mut giris).expect("Hata!");
+
+        // Kullanıcıdan alınan metin değeri sayıya dönüştürme
+        match giris.trim().parse::<i32>() {
+            Ok(sayi) => {
+                println!("Girilen sayı: {}", sayi);
+            }
+            Err(_) => {
+                println!("Geçersiz giriş, lütfen bir sayı girin.");
+            }
+        }
+    }
+
+    println!("Programdan çıktınız!");
+}
+
 
 }
