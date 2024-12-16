@@ -9,6 +9,7 @@
 ## Day 2:
 - Control flow Constructs 2
 - User input/output 2
+- functions and method syntax 
 
 ## Day 3:
 - Structs and Enums
