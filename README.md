@@ -1,10 +1,8 @@
 # Learn Rust :D
 
-       #topics
-
-#Day1
--variables 
--data type 
--Control flow constructs 
--functions and method syntax
--patter matching and destructuring 
+## Day 1:
+- Variables
+- Data types
+- Control flow constructs
+- Functions and method syntax
+- Pattern matching and destructuring
