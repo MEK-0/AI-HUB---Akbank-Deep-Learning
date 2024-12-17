@@ -1,12 +1,12 @@
 # Learn Rust :D
 
-## Day 1:
+## Day 1: +
 - Variables
 - Data types
 - Control flow constructs 1
 - User input/output 1
 
-## Day 2:
+## Day 2: +
 - Control flow Constructs 2
 - User input/output 2
 - functions and method syntax 
