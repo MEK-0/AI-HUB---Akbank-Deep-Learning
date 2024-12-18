@@ -11,7 +11,7 @@
 - User input/output 2
 - functions and method syntax 
 
-## Day 3:
+## Day 3: +
 - Structs and Enums
 - Pattern matching with enums
 
