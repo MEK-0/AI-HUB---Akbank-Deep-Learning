@@ -15,7 +15,7 @@
 - Structs and Enums
 - Pattern matching with enums
 
-## Day 4:
+## Day 4: +
 - Vectors and Strings
 - Heap vs Stack memory
 
