@@ -19,7 +19,7 @@
 - Vectors and Strings
 - Heap vs Stack memory
 
-## Day 5:
+## Day 5: +
 - HashMaps
 - Error handling with Option and Result
 
